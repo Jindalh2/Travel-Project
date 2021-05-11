@@ -1,6 +1,6 @@
 function updateMap() {
   // console.log("Updating Map");
-  fetch("https://raw.githubusercontent.com/jayantjethi/data-json/main/data.json")
+  fetch("https://raw.githubusercontent.com/Jindalh2/Travel-Project/main/Project-1/data.json")
     .then(response => response.json())
     .then(rsp => {
 
